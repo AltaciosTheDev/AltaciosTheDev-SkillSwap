@@ -9,7 +9,8 @@ Welcome to **SkillSwap**, a platform for connecting users who want to teach or l
 - **Live App:** [https://sample-service-name-y9sl.onrender.com/](https://sample-service-name-y9sl.onrender.com/)
 - **Video Demo & Explanation:**  
   [YouTube Walkthrough (minute 23:20 - 51:40)](https://www.youtube.com/watch?v=iFa8DODyRAA&t=3244s)  
-  This video covers a full walkthrough of the SkillSwap Dashboard.
+  This video covers a full walkthrough of the SkillSwap Dashboard, including user registration, profile editing, searching for skills, and more.
+
 ---
 
 ## Tech Stack
@@ -60,7 +61,8 @@ Welcome to **SkillSwap**, a platform for connecting users who want to teach or l
 
 ## Available Users
 
-These users already have data in the system. You can log in with any of them, or create your own user if you prefer!
+### Users with Sessions  
+These users already have data and sessions in the system. You can log in with any of them:
 
 | Email                      | Password       |
 |----------------------------|---------------|
@@ -69,5 +71,18 @@ These users already have data in the system. You can log in with any of them, or
 | miguel.reyes@gmail.com     | cosasbonitas  |
 | thomas.colt@gmail.com      | thomascolt    |
 | lorena.paz@gmail.com       | lorepaz       |
+
+### Users Registered to Teach & Learn (No Sessions Yet)
+These users are registered and ready to teach and learn, but have not participated in any sessions yet:
+
+| Email                      | Password         |
+|----------------------------|------------------|
+| astrid.altamirano@gmail.com| madredeloca      |
+| leaan.turcios@gmail.com    | justinandkarlton |
+| emma.cueva@gmail.com       | anakin           |
+| jan.turcios@gmail.com      | romeo            |
+| david.smith@gmail.com      | chloe            |
+
+You can also create your own user with the registration form!
 
 ---
