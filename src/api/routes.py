@@ -132,7 +132,7 @@ def private():
 def news():
 
     
-    response = requests.get(f"https://newsapi.org/v2/everything?q=technology&from=2024-04-15&sortBy=publishedAt&apiKey={os.environ.get('NEWS_API_KEY')}")
+    response = requests.get(f"https://newsapi.org/v2/everything?q=technology&from=2025-06-15&sortBy=publishedAt&apiKey={os.environ.get('NEWS_API_KEY')}")
 
     return jsonify(response.json()), 200
 

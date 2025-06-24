@@ -119,7 +119,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				try {
 					// Construct URL with query parameters
-					const url = new URL(process.env.BACKEND_URL + "api/tutor-associations");
+					const url = new URL(process.env.BACKEND_URL + "/api/tutor-associations");
 					url.searchParams.append("role", role);
 
 
@@ -147,7 +147,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				try {
 					// Construct URL with query parameters
-					const url = new URL(process.env.BACKEND_URL + "api/skills-joined-table");
+					const url = new URL(process.env.BACKEND_URL + "/api/skills-joined-table");
 					url.searchParams.append("level", level);
 					url.searchParams.append("role", role);
 					url.searchParams.append("category", category);
@@ -180,7 +180,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				try {
 					//fetch the associations from the back end
-					const resp = await fetch(process.env.BACKEND_URL + `api/users/${id}`, {
+					const resp = await fetch(process.env.BACKEND_URL + `/api/users/${id}`, {
 						method: 'GET',
 						headers: {
 							"Content-Type": "application/json",
@@ -208,7 +208,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				try {
 					//fetch the associations from the back end
-					const resp = await fetch(process.env.BACKEND_URL + `api/categories`, {
+					const resp = await fetch(process.env.BACKEND_URL + `/api/categories`, {
 						method: 'GET',
 						headers: {
 							"Content-Type": "application/json",
@@ -415,7 +415,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				try {
 					// Construct URL with query parameters
-					const url = new URL(process.env.BACKEND_URL + "api/user-sessions");
+					const url = new URL(process.env.BACKEND_URL + "/api/user-sessions");
 					url.searchParams.append("status", status);
 					// url.searchParams.append("role", role);
 					// url.searchParams.append("category", category);
