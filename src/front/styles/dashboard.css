@@ -249,6 +249,14 @@
     font-size: 20px;
 }
 
+
+.icon-favorite:hover, .delete-icon:hover {
+    cursor: auto;
+    transform: scale(1.0)!important;
+    
+    
+}
+
 /* row align center and separate when you need a specific row with elements separated */
 .dashboard-card-inner{
     display: flex;
